@@ -19,3 +19,8 @@ h1 {
     text-align: center;
     color: rgba(229,49,112,255);
 }
+
+#main_container p:first-of-type {
+    text-align: center;
+    background-color: blue;
+}
