@@ -9,7 +9,6 @@
     width: 80%;
     max-width: 900px;
     margin: auto;
-    background-color: aqua;
 }
 
 h1 {
@@ -22,8 +21,8 @@ h1 {
 #main_container p:first-of-type {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 15px;
     text-align: center;
-    background-color: blue;
 }
 
 .clear_fix::after {
@@ -32,27 +31,27 @@ h1 {
     clear: both;
 }
 
-#profiles_container {
-    background-color: blueviolet;
-}
-
 .info_container {
     width: 33.3333%;
+    font-size: 12px;
     float: left;
     background-color: rgba(15,14,23,255);
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-top: 20px solid white;
+    border-bottom: 15px solid white;
 }
 
 .profile_picture {
-    height: 100px;
+    height: 90px;
     float: left;
 }
 
 .dev_name, .dev_spec, .dev_mail {
     width: 66.6666%;
-    height: 33.3333px;
-    vertical-align: middle;
-    padding: 5px;
-   float: left;
+    line-height: 30px;
+    padding-left: 15px;
+    float: left;
 }
 
 .white_text {
@@ -62,4 +61,3 @@ h1 {
 .azure_text {
     color: rgba(62,180,231,255);
 }
-
