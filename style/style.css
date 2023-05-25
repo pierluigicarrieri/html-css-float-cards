@@ -21,6 +21,15 @@ h1 {
 }
 
 #main_container p:first-of-type {
+    padding: 20px;
     text-align: center;
     background-color: blue;
+}
+
+#profiles_container {
+    background-color: blueviolet;
+}
+
+.info_container {
+    background-color: red;
 }
